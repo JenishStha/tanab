@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "nav_menus",
+  "info": {
+    "singularName": "nav-menu",
+    "pluralName": "nav-menus",
+    "displayName": "NavMenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "menu": {
+      "type": "dynamiczone",
+      "components": [
+        "links.link",
+        "elements.dropdown"
+      ]
+    }
+  }
+}
