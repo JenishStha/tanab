@@ -17,13 +17,13 @@ module.exports = [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', 'ik.imagekit.io'],
-          'media-src': ["'self'", 'data:', 'blob:', 'ik.imagekit.io'],
+          'img-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
+          'media-src': ["'self'", 'data:', 'blob:', 'res.cloudinary.com'],
           upgradeInsecureRequests: null,
         },
       },
     },
-},
+  },
 
 ];
 
