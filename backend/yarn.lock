@@ -5897,11 +5897,6 @@ graphql@^15.5.1:
   resolved "https://registry.npmjs.org/graphql/-/graphql-15.8.0.tgz"
   integrity sha512-5gghUc24tP9HRznNpV2+FIoq3xKkj5dTQqf4v0CpdPbFVwFkWoxOM+o+2OC9ZSvjEMTjfmG9QT+gcvggTwW1zw==
 
-hamming-distance@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/hamming-distance/-/hamming-distance-1.0.0.tgz"
-  integrity sha512-hYz2IIKtyuZGfOqCs7skNiFEATf+v9IUNSOaQSr6Ll4JOxxWhOvXvc3mIdCW82Z3xW+zUoto7N/ssD4bDxAWoA==
-
 handle-thing@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmjs.org/handle-thing/-/handle-thing-2.0.1.tgz"
@@ -6288,16 +6283,6 @@ ignore@^5.1.1:
   version "5.2.0"
   resolved "https://registry.npmjs.org/ignore/-/ignore-5.2.0.tgz"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
-
-imagekit@^3.2.3:
-  version "3.2.5"
-  resolved "https://registry.npmjs.org/imagekit/-/imagekit-3.2.5.tgz"
-  integrity sha512-uR01ig7Nv5J+uUqMSrnRm/Th6+wAXNJkkr9UU0dB6cH2S2orkhIm4eOXbA1T/wDWZ9FXgbxkbdDcBvCdvuat0w==
-  dependencies:
-    hamming-distance "^1.0.0"
-    lodash "^4.17.15"
-    request "^2.88.0"
-    uuid "^3.3.3"
 
 immer@9.0.15:
   version "9.0.15"
@@ -7317,7 +7302,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.npmjs.org/lodash.sortby/-/lodash.sortby-4.7.0.tgz"
   integrity sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==
 
-lodash@4.17.21, lodash@^4.17.11, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21:
+lodash@4.17.21, lodash@^4.17.11, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -9324,7 +9309,7 @@ request-oauth@^1.0.1:
     qs "^6.9.6"
     uuid "^8.3.2"
 
-request@^2.83.0, request@^2.88.0:
+request@^2.83.0:
   version "2.88.2"
   resolved "https://registry.npmjs.org/request/-/request-2.88.2.tgz"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
@@ -10048,13 +10033,6 @@ strapi-plugin-menus@^1.1.0:
     react-select "^5.2.2"
     styled-components "^5.3.3"
 
-strapi-provider-upload-imagekit@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/strapi-provider-upload-imagekit/-/strapi-provider-upload-imagekit-4.0.2.tgz"
-  integrity sha512-CLz+TzpwYPbNn9ELUXCg+n+6xZNguzrkr8WY8ROXVSDfGjZGpxFOxWt4Z1QNvVUwbYc6QbtPpXBLRJWLBvSQAQ==
-  dependencies:
-    imagekit "^3.2.3"
-
 stream-browserify@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/stream-browserify/-/stream-browserify-3.0.0.tgz"
@@ -10724,7 +10702,7 @@ utils-merge@1.0.1, utils-merge@^1.0.1:
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
 
-uuid@^3.3.2, uuid@^3.3.3:
+uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==

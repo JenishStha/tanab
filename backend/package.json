@@ -7,8 +7,7 @@
     "@strapi/strapi": "4.4.5",
     "better-sqlite3": "7.4.6",
     "lodash.set": "^4.3.2",
-    "strapi-plugin-menus": "^1.1.0",
-    "strapi-provider-upload-imagekit": "^4.0.2"
+    "strapi-plugin-menus": "^1.1.0"
   },
   "name": "backend",
   "private": true,
